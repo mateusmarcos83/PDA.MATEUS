@@ -1,0 +1,29 @@
+h2{
+    color: yellow;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.cor{
+    color: blue;
+}
+
+#h1-cor{
+    color: green;
+}
+
+#p-font{
+    /* alteração do estilo de letra */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* aumentar o tamanho da letra */
+    font-size: 50px;
+
+    /* estilo de letra */
+    font-weight: italic;
+    
+    /* alinhamento do texto */
+    text-align: justify;
+}

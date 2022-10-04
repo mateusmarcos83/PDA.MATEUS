@@ -1,0 +1,189 @@
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    border-style: outset;
+    border-color: rgb(253, 122, 0);
+}
+
+button{
+    border-style: none;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+    border-right: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+body{
+    margin: 0;
+    background-image: url(https://st.depositphotos.com/3008028/3752/i/600/depositphotos_37524563-stock-photo-black-background-or-luxury-gray.jpg);
+    background-size: 85pc;
+    background-attachment: fixed;
+}
+
+#logo-db{
+    height: 30px;
+    width: 99px;
+}
+.fade{
+    opacity: 0.5;
+}
+.fade:hover{
+    opacity: 1;
+    color: black;
+    background-color: rgb(253, 122, 0);
+    border-radius: 10px;
+}
+
+.flex__container{
+    display: flex;
+    margin-right: 10pc;
+    margin-left: 10pc;
+    border-style: none;
+    border-radius: 10px;
+}
+
+article{
+    background: linear-gradient(180deg, rgb(114, 112, 112), rgb(78, 75, 75));
+    border-radius: 10px;
+    border-right: 2px;
+    border-left: 2px;
+    border-bottom: 2px;
+    border-top: 0px;
+    border-style: outset;
+    border-color: rgb(253, 122, 0);
+}
+h1{
+    text-align: center;
+    color: rgb(255, 136, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-style: outset;
+    border-color: rgb(253, 122, 0);
+    background-color: black;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.img-desc{
+    width: 200px;
+    height: 200px;
+    margin-left: 1pc;
+    margin-right: 1pc;
+    border-style: outset;
+    border-color: rgb(253, 122, 0);
+}
+
+#main-flex{
+        display: flex;
+        margin-right: 10pc;
+        margin-left: 5pc;
+        border-style: none;
+        border-radius: 10px;
+}
+
+.flex-titles{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.p-flex-curious{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-right: 10px;
+}
+li{
+    color: rgb(253, 122, 0);
+}
+
+#right-article{
+    margin-left: 5pc;
+    margin-right: 5pc;
+}
+
+.personagens-queridos-img{
+    width: 120px;
+    height: 120px;
+    margin-left: 33pc;
+    margin-right: 10pc;
+    border-style: outset;
+    border-color: rgb(255, 136, 0);
+}
+h3{
+    margin-left: 25pc;
+    margin-right: 25pc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgb(255, 136, 0);
+    text-align: center;
+    background-color: black;
+    color: #ff8800;
+    
+}
+
+.p-person-queridos{
+    margin-left: 10pc;
+    margin-right: 10pc;
+    border-style: double;
+    border-color: rgb(255, 136, 0);
+    background-color: black;
+    padding: 10px;
+    border-width: 5px;
+}
+
+#img-canto-direito{
+    height: 500px;
+    width: 400px;
+    margin-top: 2pc;
+}
+
+#img-canto-esque{
+    height: 500px;
+    width: 160px;
+    margin-top: 2pc;
+}
+
+.exposition-final{
+    display: inline;
+    width: 200px;
+    height: 300px;
+    margin-left: 5pc;
+    margin-top: 2pc;
+}
+
+footer{
+    background-color: black;
+    border-style: outset;
+    border-color: rgb(255, 136, 0);
+}
+
+#rodapé{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    color: #ff8800;
+    margin-left: 10px;
+     
+}
+
+#foot{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff8800;
+    margin-left: 10px;
+    border-style: none;
+    background-color: black;
+}
