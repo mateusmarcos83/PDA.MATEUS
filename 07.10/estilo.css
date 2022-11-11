@@ -1,0 +1,75 @@
+/* RESPONSIVIDADE */
+
+/* Mudando a estilização com media para impressão */
+@media print and (max-width:2000px){
+    h1{
+        color:red;
+        font-size: 200px;
+    }
+}
+
+/* Mudar a estilização de acordo com a posição da tela */
+
+/* @media (orientation: landscape){
+    h1{
+        border: 5px solid red;
+        color: blue;
+    }
+} */
+
+
+
+
+/* ATIVIDADE */
+/* Alteração de layout para telas até 320px */
+@media (max-width:320px){
+    body{
+        background-color: red;
+        color:white;
+    }
+    img{
+        width: 50px;
+    }
+}
+
+/* Alteração de layout para telas de 321px até 600px */
+/* min-width significa a largura mínima que a página precisa ter */
+/* max-width significa a largura máxima que a página precisa ter */
+@media (min-width: 321px) and (max-width:600px){
+    body{
+        background-color: chartreuse;
+        }
+        h1{
+            /* Display desativado */
+            display: none;
+        }
+        img{
+            width: 220px;
+        }
+}
+/* Alteração de layout para telas de 600px até 1000px  */
+@media (min-width:601px) and (max-width:1000px){
+    body{
+        background-color: black;
+     }
+     h1{
+        color:white;
+     }
+     img{
+        width: 700px;
+     }
+}
+
+/* Alteração de layout das telas superiores a 1000px */
+@media (min-width:1001px){
+    body{
+        background-color: aquamarine;
+      
+    }
+    h1{
+        border: 1px dotted blue;
+    }
+    img{
+        width: 1200px;
+    }
+}
