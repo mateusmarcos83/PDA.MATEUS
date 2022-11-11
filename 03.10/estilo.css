@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
 
 *{
     margin: 0;
@@ -9,7 +10,7 @@
 
 body {
     font-size: 100%;
-    background:linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);;
+    background:linear-gradient(68.15deg, #b5b804 16.62%, #301d02 85.61%);;
 }
 
 .cabecalho{
@@ -26,6 +27,7 @@ body {
 }
 
 .cabecalho-menu{
+
     display: flex;
     gap: 32px;
 }
@@ -57,14 +59,14 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 64px;
     color: #ffff;
 }
 
 .conteudo-principal-escrito-subtitulo {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: floralwhite;
@@ -77,10 +79,20 @@ body {
     border: none;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: black;
+    animation: animar 1.5s linear infinite;
+}
+
+@keyframes animar {
+    25% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+    100% {
+    }
 }
 
 .conteudo-principal-escrito-botao:hover {
@@ -89,7 +101,9 @@ body {
 
 .conteudo-principal-imagem {
     height: 430px;
+
 }
+
 
 .conteudo-secundario {
     display: flex;
@@ -102,7 +116,7 @@ body {
 .conteudo-secundario-titulo {
     border-top: 0.4px solid white;
     padding-top: 40px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: white;
@@ -110,14 +124,14 @@ body {
 }
 
 .conteudo-secundario-paragrafo {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300px;
     font-size: 18px;
     color: white;
 }
 
 .conteudo-secundario-paragrafo2 {
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300px;
     font-size: 18px;
     color: white;
